@@ -26,3 +26,6 @@ function appendKitten(name) {
   return newList
 }
 
+function prependKitten(name) {
+  
+}
