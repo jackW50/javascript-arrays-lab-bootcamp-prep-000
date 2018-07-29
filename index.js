@@ -23,7 +23,7 @@ function appendKitten(name) {
 }
 
 function prependKitten(name) {
-  var newList2 = kittens.splice(0, 0, name);
+  var newList2 = [name, ]
   return newList2
 }
 
