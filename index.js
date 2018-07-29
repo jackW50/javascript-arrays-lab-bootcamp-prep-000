@@ -18,7 +18,7 @@ function destructivelyRemoveFisrtKitten() {
 }
 
 function appendKitten(name) {
-  var newList = kittens.splice(name);
+  var newList = kittens.splice(0, -1, name);
   return newList
 }
 
