@@ -20,3 +20,4 @@ function destructivelyRemoveFisrtKitten() {
   var newList4 = kittens.shift()
   return newList4
 }
+
