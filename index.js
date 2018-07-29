@@ -18,12 +18,12 @@ function destructivelyRemoveFisrtKitten() {
 }
 
 function appendKitten(name) {
-  var newList = kittens.append(name);
+  var newList = kittens.splice(name);
   return newList
 }
 
 function prependKitten(name) {
-  var newList2 = kittens.splice(0, 0, "name");
+  var newList2 = kittens.splice(0, 0, name);
   return newList2
 }
 
