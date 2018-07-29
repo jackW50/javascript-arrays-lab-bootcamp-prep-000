@@ -18,7 +18,7 @@ function destructivelyRemoveFisrtKitten() {
 }
 
 function appendKitten(name) {
-  var newList = kittens[..., name];
+  var newList = kittens(..., name);
   return newList
 }
 
